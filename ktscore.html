@@ -2,10 +2,14 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="ktstyle.css">
     <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="ktcolors.js"></script>
   </head>
   <body>
     <h1>KT</h1>
+    <div id="grid">
     <ol>
       <li><a href="ktsmeb.html">KT SMEB</a></li>
       <li><a href="ktscore.html">KT SCORE</a></li>
@@ -13,24 +17,24 @@
       <li><a href="ktdeft.html">KT DEFT</a></li>
       <li><a href="ktmata.html">KT MATA</a></li>
     </ol>
-    <h1><a href="ktscore.html">SCORE</a></h1>
-    <input type="button" value="night" onclick="
-      document.querySelector('body').style.backgroundColor='black';
-      document.querySelector('body').style.color='white';
+
+    <div id="article">
+    <h2>SCORE</h2>
+    <input id="night_day" type="button" value="night" onclick="
+      nightDayHandler(this);
     " >
-    <input type="button" value="day" onclick="" >
 
     <p>
-      LOL 1세대 프로게이머[15] 중에서 현재까지 살아남은
-      몇 안 되는 인물이면서 데뷔하고서부터 점차 준수해지는 비주얼을
-      보면 자기 관리에 철저한 모범생 스타일의 선수라고 할 수 있겠다.
-      1세대 프로게이머임과 동시에 18년 서머 기준 강찬용과 함께
-      모든 롤챔스를 개근한 유이한 선수. 그리고 결승전은 스코어가
-      더 많이 가봤지만, 정작 최초 롤챔스 우승자인 강찬용과 달리
-      스코어는 우승이 없다. 이 시점을 기준으로 무려 16회 연속으로
-      롤챔스를 참가하고 있다. 게다가 롤챔스만 개근인 강찬용 선수와는
-      달리 롤챔스의 전신이라고 할 수 있는 롤 인비테이셔널도 출전했기
-      때문에 사실상 가장 롱런하고 있는 선수라고도 할 수 있다
+      <img src="score.png" width="100"><br>
+      LOL 1세대 프로게이머[15] 중에서 현재까지 살아남은 몇
+      안 되는 인물이면서 데뷔하고서부터 점차 준수해지는 비주얼을 보면
+      자기 관리에 철저한 모범생 스타일의 선수라고 할 수 있겠다.
+      1세대 프로게이머임과 동시에 18년 서머 기준 강찬용과 함께 모든
+      롤챔스를 개근한 유이한 선수. 그리고 결승전은 스코어가 더 많이
+      가봤지만, 정작 최초 롤챔스 우승자인 강찬용과 달리 스코어는 우승이
+      없다. 이 시점을 기준으로 무려 16회 연속으로 롤챔스를 참가하고 있다.
+      게다가 롤챔스만 개근인 강찬용 선수와는 달리 롤챔스의 전신이라고 할 수 있는
+      롤 인비테이셔널도 출전했기 때문에 사실상 가장 롱런하고 있는 선수라고도 할 수 있다
       마파와의 봇듀오[16]는 2014년 1월 기준으로 최상위권의 기량을
       자랑하는 봇듀오로, 잭선장이 CJ Blaze를 떠나면서 프로 선수들 중
       가장 오랜 기간 호흡을 맞추고 있었다. 그리고 이는 이후에 롤드컵 2회
@@ -38,12 +42,13 @@
       유독 포지션 변경이 많았던 선수이다. StarTale 입단 당시에는
       탑을 담당했다가 비타민과 포지션을 바꿔 원딜을 담당했다.
       비타민이 StarTale을 나가고 로코도코가 들어오자 탑으로 전환.
-      StarTale 해체 후 10월 10일 KT 롤스터에 비타민[17], 마파, 류와
-      함께 들어오면서 B팀의 원딜을 담당하게 되었다. 그리고 현재 KT A와
-      B팁이 통합되면서 KT Rolster의 정글러 역할을 맡고 있다.
+      StarTale 해체 후 10월 10일 KT 롤스터에 비타민[17], 마파,
+      류와 함께 들어오면서 B팀의 원딜을 담당하게 되었다. 그리고 현재
+      KT A와 B팁이 통합되면서 KT Rolster의 정글러 역할을 맡고 있다.
     </p>
 
+    </div>
 
-
+    </div>
   </body>
 </html>
